@@ -9,7 +9,7 @@ const inquirer = require('inquirer');
 
 const User = [{
         type: 'input',
-        name: 'username',
+        name: 'crazybakota',
         message: 'Insert Username:',
         validate: function(value) {
             if (!value) return 'Can\'t Empty';
